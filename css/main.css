@@ -1,8 +1,58 @@
 
 /* ----------- For screens 768px and larger ----------- */
+body {
+  background: green;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  color: antiquewhite;
+  text-align: center;
+  margin: 50px auto;
+}
+h1 {
+  color: #7b7d70;
+}
+h2 {
+  color: #4eafb8;
+}
+p {
+  color: #ff8641;
+}
+.sm-view {
+  display: inline-block;
+}
+.med-view {
+  display: none;
+}
+.lg-view {
+  display: none;
+}
+
 @media (min-width: 768px) {
 	body {
     background: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    margin: 50px auto;
+  }
+  h1 {
+    color: #02cbd2;
+  }
+  h2 {
+    color: #fcc02a;
+  }
+  p {
+    color: #7b8f8e;
+  }
+  .sm-view {
+    display: none;
+  }
+  .med-view {
+    display: inline-block;
+  }
+  .lg-view {
+    display: none;
   }
 }
 
@@ -10,5 +60,28 @@
 @media (min-width: 1200px) {
   body {
     background: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 72px;
+    color: blanchedalmond;
+    text-align: center;
+    margin: 50px auto;
+  }
+  h1 {
+    color: #6e4b61;
+  }
+  h2 {
+    color: #cabd61;
+  }
+  p {
+    color: #c19e74;
+  }
+  .sm-view {
+    display: none;
+  }
+  .med-view {
+    display: none;
+  }
+  .lg-view {
+    display: inline-block;
   }
 }
